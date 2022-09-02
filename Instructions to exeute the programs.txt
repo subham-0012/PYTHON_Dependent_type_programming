@@ -1,0 +1,15 @@
+Prerequisite:
+Add python to the windows path variable i.e., your command prompt should identify "python" as a vaild exe/command
+
+1. mypy is the scientific package for type checking in python
+2. install mypy using the command
+python3 -m pip install mypy
+For the above command to work on windows os command prompt, install pip first.
+pip is a python package installer.
+3. cd to the directory where you have extracted the programs(.py files) in the command prompt
+4. Execute type checking via mypy using the command
+mypy --python-version=3.6 --strict test.py
+5. The above command checks for compile time errors
+6. To exeucte the actual code you have to run it using the command
+python test.py
+
